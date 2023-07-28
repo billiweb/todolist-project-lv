@@ -2,6 +2,7 @@
 level 3. options
 - button / input / modal / selectedArea
 <br />
+
 1. 모달창 2개 구현
     - 취소 / 확인 버튼 / overlay 클릭시 닫히지 않는 형태
     - 닫기 버튼 / overlay 클릭시 닫히는 형태
