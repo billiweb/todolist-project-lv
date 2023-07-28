@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+![스크린샷 2023-07-28 오후 4 49 26](https://github.com/billiweb/todolist-project-lv/assets/119646235/36a886d5-8143-46b1-8065-050c949e8df3)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. 구현해야 할 기능
+    - Create todo
+    - Read Todos, Todos
+    - Update Todo
+    - Delete Todo
 
-## Available Scripts
+2. 요구사항
+    (1) 공통
+        - todos 데이터는 리덕스를 사용해서 전역으로 상태를 관리합니다.
+    (2) 메인 페이지
+        - Todo의 상태에 완료 그룹과 진행중 그룹을 나눠서 구현.
+    (3) Todo를 추가하면 제목과 내용 input 은 빈 값이 되도록 구현.
+    (4) input 값이 있는 상태에서 상세페이지로 이동하는 경우, input value 초기화
+    (5) Todo의 완료 상태를 '취소' '완료'로 구분
+    (6) 최대 넓이 1200px / 최소 넓이 800px / 가운데 배치
+    (7) 상세페이지
+        - Todo id
+        - Todo title
+        - Todo contents
+        - '이전' 버튼 구현
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. 설치 프로그램 
+    - yarn add redux react-redux
+    - yarn add react-router-dom
+    - yarn add shortid
